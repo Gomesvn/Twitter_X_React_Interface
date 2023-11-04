@@ -1,0 +1,51 @@
+.timeline-header{
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-bottom: 1px solid #ebeef0;
+}
+
+.timeline-header svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.timeLine_nav{
+    display: flex;
+    flex: 1;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+
+.timeLine_nav a{
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    font-weight: bold;
+    padding: 20px 35px;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    
+}
+
+.timeLine_nav a:hover{
+    background: #18171b;
+}
+
+
+.timeLine_nav a.active{
+    border-bottom: 3px solid var(--twitter-blue);
+    margin-bottom: -1.5px;
+}
+
+.settings-icon:hover{
+    color: var(--twitter-blue);
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.trendings_container{
+    background: #141414;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 1em; 
+    width: 100%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.trendings_container h3{
+    font-size: 16px;
+}
+
+.trendings_container p{
+    font-size: 14px;
+}
+
+.trendings_container span{
+    font-size: 10px;
+    color: #5f5e5e;
+}
+
+.trendings_container ul{
+    list-style-type: none;
+}
+
+.trendings_container ul li{
+    margin-top: 20px;
+}
+
+.header-trending {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-trending{
+    display: flex;
+    align-items: center;
+}
+
+.footer-trending span{
+    font-size: 12px;
+}
+
+.trendings_container a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--twitter-blue);
+    cursor: pointer;
+}

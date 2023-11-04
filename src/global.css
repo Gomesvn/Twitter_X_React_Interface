@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --twitter-blue: #1d9bF0;
+}
+
+
+body{
+    background: #030405;
+    color: #f0f2f5;
+    -webikit-font-smoothing: antialiased; /*melhor qualidade de font*/
+}
+
+body, input, textarea, button{
+    font: 400 1rem Roboto, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+}
+
+/*Page: TimeLine*/
+
+
+

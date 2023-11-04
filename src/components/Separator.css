@@ -1,0 +1,10 @@
+.separator{
+    border-top: 1px solid #ebeef0;
+    border-bottom: 1px solid #ebeef0;
+    padding: 10px 0;
+    text-align: center;
+    color: #1D9BF0;
+}
+.separator a{
+    text-decoration: none;
+}

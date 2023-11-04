@@ -1,0 +1,23 @@
+.hotofollow-container{
+    background: #141414;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 1em; 
+    width: 100%;
+    gap: 1em;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;        
+}
+
+
+.hotofollow-container a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--twitter-blue);
+    cursor: pointer;
+}
+

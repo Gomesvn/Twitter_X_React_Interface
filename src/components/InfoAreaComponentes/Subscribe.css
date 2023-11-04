@@ -1,0 +1,37 @@
+.subscribe_container{
+    background: #141414;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 15px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.subscribe_container h2{
+    margin-top: 5px;
+}
+
+.subscribe_container p{
+    font-weight: bold;
+}
+
+.subscribe_container button{
+    background: var(--twitter-blue);
+    border-radius: 9999px;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    font: 1rem 900;
+    width: fit-content;
+    border: none;
+}
+
+.subscribe_container button:hover{
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
+}
+
